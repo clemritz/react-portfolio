@@ -4,8 +4,8 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Work from './Work';
 import About from './About';
-import './navigation.js';
-import './navbar.css';
+import Footer from './Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './body.css';
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
