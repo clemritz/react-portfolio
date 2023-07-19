@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Morgenwalsh';
+  src: url('29\ Morgenwalsh/Morgenwalsh.otf')
+}
+
+@font-face {
+  font-family: 'Mitera';
+  src: url('25\ Mitera/Mitera Regular.ttf')
+}
+
+@font-face {
+  font-family: 'Cerlions';
+  src: url('12\ Cerlions/Cerlions-Regular.otf')
+}
+
+@font-face {
+  font-family: 'Brier';
+  src: url('7\ Brier/Brier-Regular.otf')
+}
+
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 58px;
+  font-family: "Cerlions", sans-serif;
+  font-size: 52px;
+}
+
+@media(max-width: 768px) {
+  .header h1 {
+    font-size: 26px;
+  }
+}
+
+.line {
+  width: 24em;
+  top: 50%;
+  margin: auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.anim-typewriter {
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+  blinkTextCussor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 18em;
+  }
+}
+
+@media(max-width: 768px) {
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 17em;
+    }
+  }
+}
+
+@keyframes blinkTextCussor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
