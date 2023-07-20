@@ -118,3 +118,28 @@ a:link,
 a:visited {
   color: inherit;
 }
+
+.about {
+  height: 500px;
+  margin-top: 120px;
+}
+
+.image1 {
+  background: url(https://images.unsplash.com/photo-1671750668151-219caa16178d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80) no-repeat 50% 70%;
+  background-position: center;
+}
+
+.image2 {
+  background: url(https://images.unsplash.com/photo-1465125672495-63cdc2fa22ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80) no-repeat 50% 70%;
+  background-position: center;
+}
+
+.image3 {
+  background: url(https://photo-assets.wimbledon.com/images/pics/large/s_grounds_4757_29062019_tc.jpg) no-repeat 50% 70%;
+  background-position: center;
+}
+
+.image4 {
+  background: url(https://images.unsplash.com/photo-1520733772731-e33af4616207?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1748&q=80) no-repeat 50% 70%;
+  background-position: right;
+}

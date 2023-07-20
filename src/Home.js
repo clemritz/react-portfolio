@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './home.css';
 import './project.css';
-
 
 function Homepage() {
   return (
@@ -23,16 +23,17 @@ function Homepage() {
         <div className="whitespace"></div>
         <div className="whitespace"></div>
 
+          <Link to="/project/1">
         <div className="row">
           <div className="col-lg-8"></div>
-
-          <div className="col-lg-4 project project1" data-aos="fade-up" data-aos-duration="3000" onClick={() => window.location.href='project1.html'}></div>
+          <div className="col-lg-4 project project1" data-aos="fade-up" data-aos-duration="3000"></div>
         </div>
+          </Link>
 
         <div className="whitespace"></div>
 
         <div className="row">
-          <div className="col-lg-6 project project2" data-aos="fade-up" data-aos-duration="3000" onClick={() => window.location.href='project2.html'}></div>
+          <div className="col-lg-6 project project2" data-aos="fade-up" data-aos-duration="3000" onClick={() => window.location.href='project/2'}></div>
 
           <div className="col-lg-6"></div>
         </div>
@@ -42,7 +43,7 @@ function Homepage() {
         <div className="row">
           <div className="col-lg-7"></div>
 
-          <div className="col-lg-4 project project3" data-aos="fade-up" data-aos-duration="3000" onClick={() => window.location.href='project3.html'}></div>
+          <div className="col-lg-4 project project3" data-aos="fade-up" data-aos-duration="3000" onClick={() => window.location.href='project/3'}></div>
 
           <div className="col-lg-1"></div>
         </div>
@@ -52,7 +53,7 @@ function Homepage() {
         <div className="row">
           <div className="col-lg-1"></div>
 
-          <div className="col-lg-5 project project4" data-aos="fade-up" data-aos-duration="3000" onClick={() => window.location.href='project4.html'}></div>
+          <div className="col-lg-5 project project4" data-aos="fade-up" data-aos-duration="3000" onClick={() => window.location.href='project/4'}></div>
 
           <div className="col-lg-6"></div>
         </div>

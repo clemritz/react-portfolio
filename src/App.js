@@ -3,11 +3,13 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import Navbar from './Navbar';
 import Home from './Home';
 import Work from './Work';
+import Project1 from './Project1';
 import About from './About';
 import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './body.css';
 import 'aos/dist/aos.css';
+
 import AOS from 'aos';
 
 function App() {
@@ -33,6 +35,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/work" element={<Work />} />
           <Route path="/about" element={<About />} />
+          <Route path="/project/1" element={<Project1 />} />
         </Routes>
         <Footer />
       </Router>
