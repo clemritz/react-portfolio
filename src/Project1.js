@@ -11,26 +11,26 @@ function Project1() {
           <div className="row">
             <div className="col-lg-12">
               <br />
-              <h1>Australian Open</h1>
+              <h1 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300">Australian Open</h1>
               <br /><br />
               <div className="row">
                 <div className="col-lg-4">
-                  <p>most title holder :</p>
-                  <h6>Novak Djokovic</h6>
+                  <p data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">most title holder :</p>
+                  <h6 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">Novak Djokovic</h6>
                 </div>
 
                 <div className="col-lg-4">
-                  <p>surface :</p>
-                  <h6>hard</h6>
+                  <p data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600">surface :</p>
+                  <h6 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700">hard</h6>
                 </div>
 
                 <div className="col-lg-4">
-                  <p>founded :</p>
-                  <h6>1905</h6>
+                  <p data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800">founded :</p>
+                  <h6 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="900">1905</h6>
                 </div>
               </div>
               <br />
-              <p>
+              <p data-aos="fade-up" data-aos-duration="3000" data-aos-delay="1000">
                 The Australian Open is a tennis tournament held annually at Melbourne Park in Melbourne, Victoria, Australia. The tournament is the first of the four Grand Slam tennis events held each year, preceding the French Open, Wimbledon, and the US Open.
               </p>
             </div>
@@ -54,8 +54,10 @@ function Project1() {
         <div class="container">
           <div class="row">
             <div class="col-lg-12 next d-flex justify-content-end mt-5">
-              <p class="me-2 pointer" onclick="location.href='project2.html'">next</p>
+          <Link to="/project/2" class='d-flex'>
+              <p class="me-2 pointer">next</p>
               <ion-icon class="arrow" name="arrow-forward"></ion-icon>
+          </Link>
             </div>
           </div>
         </div>

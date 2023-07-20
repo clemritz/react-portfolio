@@ -23,20 +23,21 @@ function Homepage() {
         <div className="whitespace"></div>
         <div className="whitespace"></div>
 
-          <Link to="/project/1">
-        <div className="row">
-          <div className="col-lg-8"></div>
-          <div className="col-lg-4 project project1" data-aos="fade-up" data-aos-duration="3000"></div>
-        </div>
-          </Link>
+        <Link to="/project/1">
+          <div className="row">
+            <div className="col-lg-8"></div>
+            <div className="col-lg-4 project project1" data-aos="fade-up" data-aos-duration="3000"></div>
+          </div>
+        </Link>
 
         <div className="whitespace"></div>
 
-        <div className="row">
-          <div className="col-lg-6 project project2" data-aos="fade-up" data-aos-duration="3000" onClick={() => window.location.href='project/2'}></div>
-
-          <div className="col-lg-6"></div>
-        </div>
+        <Link to="/project/2">
+          <div className="row">
+            <div className="col-lg-6 project project2" data-aos="fade-up" data-aos-duration="3000"></div>
+            <div className="col-lg-6"></div>
+          </div>
+        </Link>
 
         <div className="whitespace"></div>
 
