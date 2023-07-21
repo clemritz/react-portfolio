@@ -41,13 +41,13 @@ function Homepage() {
 
         <div className="whitespace"></div>
 
-        <div className="row">
-          <div className="col-lg-7"></div>
-
-          <div className="col-lg-4 project project3" data-aos="fade-up" data-aos-duration="3000" onClick={() => window.location.href='project/3'}></div>
-
-          <div className="col-lg-1"></div>
-        </div>
+        <Link to="/project/3">
+          <div className="row">
+            <div className="col-lg-7"></div>
+            <div className="col-lg-4 project project3" data-aos="fade-up" data-aos-duration="3000"></div>
+            <div className="col-lg-1"></div>
+          </div>
+        </Link>
 
         <div className="whitespace"></div>
 
