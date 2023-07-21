@@ -48,19 +48,16 @@ function Project2() {
           </div>
         </div>
       </div>
-
-      <br /><br />
-
       <div className="project-nav">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 prev d-flex">
+            <div className="col-lg-6 prev d-flex" style={{ marginTop: '25px' }}>
               <Link to="/project/1" className='d-flex'>
                 <ion-icon className="arrow" name="arrow-back"></ion-icon>
                 <p className="ms-2 pointer" style={{ marginTop: '-5px' }}>previous</p>
               </Link>
             </div>
-            <div className="col-lg-6 next d-flex justify-content-end">
+            <div className="col-lg-6 next d-flex justify-content-end" style={{ marginTop: '25px' }}>
               <Link to="/project/3" className='d-flex'>
                 <p className="me-2 pointer" style={{ marginTop: '-5px' }}>next</p>
                 <ion-icon className="arrow" name="arrow-forward"></ion-icon>

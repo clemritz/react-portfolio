@@ -50,10 +50,11 @@ function Project1() {
           </div>
         </div>
       </div>
+      <br></br>
       <div class="project-nav">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 next d-flex justify-content-end mt-5">
+            <div class="col-lg-12 next d-flex justify-content-end">
           <Link to="/project/2" class='d-flex'>
               <p class="me-2 pointer">next</p>
               <ion-icon class="arrow" name="arrow-forward"></ion-icon>
