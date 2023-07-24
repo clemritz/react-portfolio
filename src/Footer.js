@@ -34,7 +34,6 @@ function Footer() {
               <p>follow me</p>
               <ul>
                 <li id="lk"><a href="https://www.linkedin.com/in/clementritz/" target="_blank" rel="noopener noreferrer">lk</a></li>
-                <li id="ig"><a href="https://www.instagram.com/clemritz/" target="_blank" rel="noopener noreferrer">ig</a></li>
                 <li id="gh"><a href="https://www.github.com/clemritz/" target="_blank" rel="noopener noreferrer">gh</a></li>
                 <li id="tw"><a href="https://www.twitter.com/clemritz/" target="_blank" rel="noopener noreferrer">tw</a></li>
               </ul>
