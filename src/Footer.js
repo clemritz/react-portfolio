@@ -6,16 +6,7 @@ function Footer() {
     <div className="footer">
       <div className="container">
         <br/><br />
-        <div className="collab">
-          <div className="row">
-            <div className="col-lg-12">
-              <p>Got an interesting project? Contact me.</p>
-            </div>
-          </div>
-        </div>
-
-        <br />
-
+      
         <div className="hr">
           <div className="row"></div>
         </div>
@@ -31,7 +22,7 @@ function Footer() {
             </div>
 
             <div className="col-lg-4" id="media">
-              <p>follow me</p>
+              <p>contact</p>
               <ul>
                 <li id="lk"><a href="https://www.linkedin.com/in/clementritz/" target="_blank" rel="noopener noreferrer">lk</a></li>
                 <li id="gh"><a href="https://www.github.com/clemritz/" target="_blank" rel="noopener noreferrer">gh</a></li>
