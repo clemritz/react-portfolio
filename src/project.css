@@ -20,18 +20,18 @@ h6 {
 }
 
 .project1 {
-  background: url(https://images.unsplash.com/photo-1671750668151-219caa16178d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80) no-repeat 50% 50%;
+  background: url(backgroundp2v2.png) no-repeat 50% 50%;
   background-size: cover;
 }
 
 .project1::after {
-  content: "australian open.";
+  content: "song app.";
   font-family: "Mitera", sans-serif;  font-size: 42px;
   position: relative;
   color: #fff;
   display: block;
   top: 8%;
-  left: -60%;
+  left: -45%;
   right: 0;
   bottom: 0;
 }
@@ -125,8 +125,9 @@ a:visited {
 }
 
 .image1 {
-  background: url(https://images.unsplash.com/photo-1671750668151-219caa16178d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80) no-repeat 50% 70%;
+  background: url(backgroundp2.png) no-repeat 50% 70%;
   background-position: center;
+  background-size: cover;
 }
 
 .image2 {
