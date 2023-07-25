@@ -7,7 +7,7 @@ function Project1() {
       <div className='whitespace'></div>
       <div className="container">
         <div className="hero-content">
-          <br />
+          <br /><br />
           <div className="row">
             <div className="col-lg-12">
               <br />
@@ -54,7 +54,7 @@ function Project1() {
       <div class="project-nav">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 next d-flex justify-content-end">
+            <div class="col-lg-12 next d-flex justify-content-end" style={{ marginTop: '30px' }}>
           <Link to="/project/2" class='d-flex'>
               <p class="me-2 pointer">next</p>
               <ion-icon class="arrow" name="arrow-forward"></ion-icon>

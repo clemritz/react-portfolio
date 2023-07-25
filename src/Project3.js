@@ -81,13 +81,13 @@ function Project3() {
       <div className="project-nav">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 prev d-flex" style={{ marginTop: '25px' }}>
+            <div className="col-lg-6 prev d-flex" style={{ marginTop: '50px' }}>
               <Link to="/project/2" className='d-flex'>
                 <ion-icon className="arrow" name="arrow-back"></ion-icon>
                 <p className="ms-2 pointer" style={{ marginTop: '-5px' }}>previous</p>
               </Link>
             </div>
-            <div className="col-lg-6 next d-flex justify-content-end" style={{ marginTop: '25px' }}>
+            <div className="col-lg-6 next d-flex justify-content-end" style={{ marginTop: '50px' }}>
               <Link to="/project/4" className='d-flex'>
                 <p className="me-2 pointer" style={{ marginTop: '-5px' }}>next</p>
                 <ion-icon className="arrow" name="arrow-forward"></ion-icon>
