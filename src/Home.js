@@ -2,8 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './home.css';
 import './project.css';
+import useRedirectToHttps from './useRedirectToHttps';
 
 function Homepage() {
+  useRedirectToHttps()
   return (
     <div>
       <div className="hero">
