@@ -6,7 +6,7 @@ function Footer() {
     <div className="footer">
       <div className="container">
         <br/><br />
-      
+
         <div className="hr">
           <div className="row"></div>
         </div>
@@ -26,7 +26,7 @@ function Footer() {
               <ul>
                 <li id="lk"><a href="https://www.linkedin.com/in/clementritz/" target="_blank" rel="noopener noreferrer">lk</a></li>
                 <li id="gh"><a href="https://www.github.com/clemritz/" target="_blank" rel="noopener noreferrer">gh</a></li>
-                <li id="tw"><a href="https://www.twitter.com/clemritz/" target="_blank" rel="noopener noreferrer">tw</a></li>
+                <li id="tw"><a href="https://www.twitter.com/clemritz/" target="_blank" rel="noopener noreferrer">x</a></li>
               </ul>
 
               <br /><br />
