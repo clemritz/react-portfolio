@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Project1() {
   return (
@@ -7,25 +7,71 @@ function Project1() {
       <div className="whitespace"></div>
       <div className="container">
         <div className="hero-content">
-          <br /><br />
+          <br />
+          <br />
           <div className="row">
             <div className="col-lg-12">
               <br />
-              <h1 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300">Song app.</h1><br /><br />
+              <h1
+                data-aos="fade-up"
+                data-aos-duration="3000"
+                data-aos-delay="300"
+              >
+                Song app.
+              </h1>
+              <br />
+              <br />
               <div className="row">
                 <div className="col-lg-4">
-                  <p data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">Tech :</p>
-                  <h6 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="500">HTML, CSS, JavaScript</h6>
+                  <p
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-delay="400"
+                  >
+                    Tech :
+                  </p>
+                  <h6
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-delay="500"
+                  >
+                    HTML, CSS, JavaScript
+                  </h6>
                 </div>
                 <div className="col-lg-4">
-                  <p data-aos="fade-up" data-aos-duration="3000" data-aos-delay="600">Link :</p>
-                  <h6 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="700">
-                    <a href="https://neon-dragon-01af3b.netlify.app/" target="_blank" id='project-link' rel="noopener noreferrer">song-app</a>
+                  <p
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-delay="600"
+                  >
+                    Link :
+                  </p>
+                  <h6
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    data-aos-delay="700"
+                  >
+                    <a
+                      href="https://neon-dragon-01af3b.netlify.app/"
+                      target="_blank"
+                      id="project-link"
+                      rel="noopener noreferrer"
+                    >
+                      song-app
+                    </a>
                   </h6>
                 </div>
               </div>
-              <br/>
-              <p data-aos="fade-up" data-aos-duration="3000" data-aos-delay="800">Created using HTML, CSS, and JavaScript, this interactive audio player allows you to explore a sample of captivating sounds at your fingertips.</p>
+              <br />
+              <p
+                data-aos="fade-up"
+                data-aos-duration="3000"
+                data-aos-delay="800"
+              >
+                Created using HTML, CSS, and JavaScript, this interactive audio
+                player allows you to explore a sample of captivating sounds at
+                your fingertips.
+              </p>
             </div>
           </div>
         </div>
@@ -33,11 +79,21 @@ function Project1() {
 
       <div className="project-img">
         <div className="container">
-          <br /><br />
+          <br />
+          <br />
           <div className="row">
             <div className="col-md-8">
-              <a href="https://neon-dragon-01af3b.netlify.app/" target="_blank" rel="noopener noreferrer">
-                <div className="project image1" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300"></div>
+              <a
+                href="https://neon-dragon-01af3b.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div
+                  className="project image1"
+                  data-aos="fade-up"
+                  data-aos-duration="3000"
+                  data-aos-delay="300"
+                ></div>
               </a>
             </div>
           </div>
@@ -46,9 +102,14 @@ function Project1() {
       <div className="project-nav">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 next d-flex justify-content-end" style={{ marginTop: '50px' }}>
-              <Link to="/project/2" className='d-flex'>
-                <p className="me-2 pointer" style={{ marginTop: '-5px' }}>next</p>
+            <div
+              className="col-lg-12 next d-flex justify-content-end"
+              style={{ marginTop: "50px" }}
+            >
+              <Link to="/project/2" className="d-flex">
+                <p className="me-2 pointer" style={{ marginTop: "-5px" }}>
+                  next
+                </p>
                 <ion-icon className="arrow" name="arrow-forward"></ion-icon>
               </Link>
             </div>
